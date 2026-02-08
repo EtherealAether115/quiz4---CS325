@@ -27,7 +27,8 @@ mathType = input("\nPlease select a math type (A, S, M, D): ")
 # Mul
 # ========================================
 
-
+if mathType.lower() == "m":
+    print (f"{num1} plus {num2} equals {num1*num2}")
 
 # ========================================
 
