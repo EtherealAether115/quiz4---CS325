@@ -27,7 +27,8 @@ if mathType.lower() == "s":
 # Mul
 # ========================================
 
-
+if mathType.lower() == "m":
+    print (f"{num1} plus {num2} equals {num1*num2}")
 
 # ========================================
 
