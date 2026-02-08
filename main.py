@@ -11,8 +11,8 @@ mathType = input("\nPlease select a math type (A, S, M, D): ")
 # Add
 # ========================================
 
-
-
+if mathType.lower() == "a":
+    print (f"{num1} plus {num2} equals {num1+num2}") 
 
 # ========================================
 
@@ -27,20 +27,22 @@ if mathType.lower() == "s":
 # Mul
 # ========================================
 
-
+if mathType.lower() == "m":
+    print (f"{num1} plus {num2} equals {num1*num2}")
 
 # ========================================
 
 # Div
 # ========================================
 
-
+if mathType.lower() == "d":
+    print (f"{num1} plus {num2} equals {num1/num2}")
 
 # ========================================
 
 # Output
 # ========================================
 
-print("this will NOT create a conflict")
+print("this will create a conflict")
 
 # ========================================
