@@ -35,7 +35,8 @@ if mathType.lower() == "m":
 # Div
 # ========================================
 
-
+if mathType.lower() == "d":
+    print (f"{num1} plus {num2} equals {num1/num2}")
 
 # ========================================
 
