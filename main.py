@@ -11,8 +11,8 @@ mathType = input("\nPlease select a math type (A, S, M, D): ")
 # Add
 # ========================================
 
-
-
+if mathType.lower() == "a":
+    print (f"{num1} plus {num2} equals {num1+num2}") 
 
 # ========================================
 
