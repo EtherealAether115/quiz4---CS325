@@ -41,6 +41,6 @@ if mathType.lower() == "a":
 # Output
 # ========================================
 
-
+print("this will create a conflict")
 
 # ========================================
