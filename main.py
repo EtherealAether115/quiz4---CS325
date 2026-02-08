@@ -41,6 +41,6 @@ if mathType.lower() == "s":
 # Output
 # ========================================
 
-
+print("this will NOT create a conflict")
 
 # ========================================
