@@ -19,8 +19,8 @@ mathType = input("\nPlease select a math type (A, S, M, D): ")
 # Sub
 # ========================================
 
-
-
+if mathType.lower() == "s":
+    print (f"{num1} minus {num2} equals {num1-num2}")
 
 # ========================================
 
