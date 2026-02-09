@@ -26,9 +26,11 @@ if mathType.lower() == "s":
 
 # Mul
 # ========================================
+def mul(n1, n2):
+    return n1*n2
 
 if mathType.lower() == "m":
-    print (f"{num1} plus {num2} equals {num1*num2}")
+    print (f"{num1} plus {num2} equals {mul(num1, num2)}")
 
 # ========================================
 
@@ -43,6 +45,6 @@ if mathType.lower() == "d":
 # Output
 # ========================================
 
-print("this will create a conflict")
+print("this will create a conflict, I have just changed it")
 
 # ========================================
