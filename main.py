@@ -45,6 +45,6 @@ if mathType.lower() == "d":
 # Output
 # ========================================
 
-print("this will create a conflict, I have just changed it")
+print("this should create a conflict")
 
 # ========================================
